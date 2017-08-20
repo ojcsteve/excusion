@@ -1,7 +1,10 @@
 body {
     background-color: black;
     text-aign: center;
-}
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+  }
 
 h1 {
   font-family: Verdana;
@@ -10,6 +13,7 @@ h1 {
   color: white;
   margin: auto;
   text-align: center;
+  padding: 50px 50px 50px 50px;
 }
 
 h2 {
@@ -19,12 +23,14 @@ h2 {
   color: white;
   margin: auto;
   text-align: center;
+  padding: 50px 50px 50px 50px;
 }
 
 img src {
   margin: auto;
   text-align: center;
-  clear: both;
+  display:block;
+  padding: 50px 50px 50px 50px;
 }
 
 a {
